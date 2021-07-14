@@ -35,6 +35,7 @@ requirements:
     - r-backports >=0.1.5
     - r-checkmate
     - r-data.table
+    - r-digest
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
@@ -42,6 +43,7 @@ requirements:
     - r-backports >=0.1.5
     - r-checkmate
     - r-data.table
+    - r-digest
 
 test:
   commands:
