@@ -1,4 +1,4 @@
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlr3misc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlr3misc/mlr3misc_{{ version }}.tar.gz
-  sha256: d1f558d2e1cb73410308d53ee9df2226508d0b9995376841e05451473f905d41
+  sha256: 5c8edd2b88b90a7ec6cf6be6d5b58b87ea2ae398f61b92b1093af8ed0ec40c09
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
