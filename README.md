@@ -3,6 +3,7 @@ About r-mlr3misc-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlr3misc-feedstock/blob/main/LICENSE.txt)
 
+
 About r-mlr3misc
 ----------------
 
@@ -11,6 +12,7 @@ Home: https://mlr3misc.mlr-org.com, https://github.com/mlr-org/mlr3misc
 Package license: LGPL-3.0-only
 
 Summary: Frequently used helper functions and assertions used in 'mlr3' and its companion packages. Comes with helper functions for functional programming, for printing, to work with 'data.table', as well as some generally useful 'R6' classes. This package also supersedes the package 'BBmisc'.
+
 About r-mlr3misc
 ----------------
 
