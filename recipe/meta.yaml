@@ -34,6 +34,7 @@ requirements:
     - r-r6
     - r-backports >=0.1.5
     - r-checkmate
+    - r-cli
     - r-data.table
     - r-digest
   run:
@@ -41,6 +42,7 @@ requirements:
     - r-r6
     - r-backports >=0.1.5
     - r-checkmate
+    - r-cli
     - r-data.table
     - r-digest
 
