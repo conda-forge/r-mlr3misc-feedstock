@@ -29,6 +29,12 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-r6                         # [build_platform != target_platform]
+    - r-backports >=0.1.5          # [build_platform != target_platform]
+    - r-checkmate                  # [build_platform != target_platform]
+    - r-cli                        # [build_platform != target_platform]
+    - r-data.table                 # [build_platform != target_platform]
+    - r-digest                     # [build_platform != target_platform]
   host:
     - r-base
     - r-r6
