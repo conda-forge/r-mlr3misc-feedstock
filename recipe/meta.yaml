@@ -12,7 +12,7 @@ source:
   sha256: 4f3c45d36b8020fd92ce20de870f29a27cf776de4e542bfada2097b91fc7ef82
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -29,6 +29,12 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-r6                         # [build_platform != target_platform]
+    - r-backports >=0.1.5          # [build_platform != target_platform]
+    - r-checkmate                  # [build_platform != target_platform]
+    - r-cli                        # [build_platform != target_platform]
+    - r-data.table                 # [build_platform != target_platform]
+    - r-digest                     # [build_platform != target_platform]
   host:
     - r-base
     - r-r6
